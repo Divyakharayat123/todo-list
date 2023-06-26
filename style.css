@@ -1,0 +1,104 @@
+ *{
+    margin: 0;
+    padding: 0;
+
+    
+    
+
+    
+}
+body{
+    /* height: 100%; */
+    /* width: 50%; */
+    background: url("bg4.webp");
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    /* font: large; */
+    display: flex;
+    flex-direction: column;
+    /* height: 50%; */
+    /* width: 50%; */
+    align-items: center;
+    justify-content: center;
+margin-top: 120px;
+
+}
+.content h1{
+    font-size:55px ;
+    /* font-size: xx-large; */
+}
+.content h3{
+    font-size:25px ;
+    margin-top: -4px;
+
+}
+.add{
+    margin-top: 6px;
+    
+}
+#text {
+    height: 27px;
+    width: 210px;
+    background: rgb(213, 206, 206);
+    /* outline: none; */
+    border: none;
+    
+    border-radius: 3px;
+    padding-left: 10px;
+}
+#btn{
+    cursor: pointer;
+    height: 27px;
+width: 50px;
+margin-left: 9px;
+background: rgb(109, 193, 193);
+    
+border-radius: 3px;
+border: none;
+}
+#text::placeholder{
+    padding-left: 10px;
+}
+#btn:hover{
+    transition: .2s;
+    transform: scale(1.1);
+}
+#btn:active{
+    transition: .2s;
+    transform: scale(0.9);
+}
+.list-item{
+    display: flex;
+
+}
+.list-item{
+
+margin-top: 5px;
+padding: 2px;
+/* width: 250px; */
+height: 20px;
+
+
+}
+.action{
+    padding-left: 150px;
+    /* background-color: red; */
+    width: 150px;
+    height: 20px;
+
+}
+.done{
+    background-color: red;
+    /* padding-left:2px ; */
+    margin-right: 2px;
+
+}
+.remove{
+    background-color:rgb(91, 196, 91);
+    /* padding-left: 2px; */
+    margin-left: 2px;
+}
+
